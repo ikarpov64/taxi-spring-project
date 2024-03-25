@@ -1,0 +1,7 @@
+tariffs:
+  berezovayaRosha: 10
+  kandikyula: 4
+  stroitel: 12
+spring:
+  profiles:
+    active: luna

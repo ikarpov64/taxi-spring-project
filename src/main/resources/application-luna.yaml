@@ -1,0 +1,4 @@
+name: "Такси Луна"
+cars: 3
+dayRate: 10
+nightRate: 15
