@@ -4,7 +4,6 @@ import java.util.List;
 import org.springframework.context.annotation.*;
 
 @Configuration
-//@PropertySource("classpath:application.yaml")
 public class CompanyConfig {
 
     @Bean
