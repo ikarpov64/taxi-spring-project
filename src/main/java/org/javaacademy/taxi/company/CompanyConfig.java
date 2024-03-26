@@ -1,4 +1,4 @@
-package org.javaacademy.taxi;
+package org.javaacademy.taxi.company;
 
 import org.springframework.context.annotation.*;
 
@@ -6,7 +6,7 @@ import java.util.List;
 
 @Configuration
 //@PropertySource("classpath:application.yaml")
-public class ApplicationConfig {
+public class CompanyConfig {
 
     @Bean
     @Scope("prototype")

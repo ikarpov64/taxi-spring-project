@@ -1,7 +1,4 @@
-tariffs:
-  berezovayaRosha: 10
-  kandikyula: 4
-  stroitel: 12
+tariffs: "{'Березовая роща': 10, 'Кандикюля': 4, 'Строитель': 12}"
 spring:
   profiles:
     active: luna

@@ -1,8 +1,10 @@
 package org.javaacademy.taxi;
 
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 @Getter
+@RequiredArgsConstructor
 public class Client {
-    private String address;
+    private final String address;
 }

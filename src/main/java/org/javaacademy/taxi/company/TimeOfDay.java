@@ -1,4 +1,4 @@
-package org.javaacademy.taxi;
+package org.javaacademy.taxi.company;
 
 import lombok.AccessLevel;
 import lombok.Getter;
