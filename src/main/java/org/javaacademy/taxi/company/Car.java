@@ -1,15 +1,14 @@
 package org.javaacademy.taxi.company;
 
 import jakarta.annotation.PostConstruct;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import org.javaacademy.taxi.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 
 @ToString
 @Setter

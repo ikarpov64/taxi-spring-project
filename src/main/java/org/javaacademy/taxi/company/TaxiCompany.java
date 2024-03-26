@@ -1,15 +1,12 @@
 package org.javaacademy.taxi.company;
 
-import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
+import java.math.BigDecimal;
+import java.util.List;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.javaacademy.taxi.Client;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-
-import java.math.BigDecimal;
-import java.util.List;
 
 @Getter
 @RequiredArgsConstructor
@@ -19,10 +16,6 @@ public class TaxiCompany {
     private BigDecimal amountMoney = BigDecimal.ZERO;
     private final List<Car> cars;
     private int availableCar = 0;
-
-//    public TaxiCompany(List<Car> cars) {
-//        this.cars = cars;
-//    }
 
     @PreDestroy
     private void preDestroy() {

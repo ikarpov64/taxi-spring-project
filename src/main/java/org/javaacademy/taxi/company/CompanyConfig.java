@@ -1,8 +1,7 @@
 package org.javaacademy.taxi.company;
 
-import org.springframework.context.annotation.*;
-
 import java.util.List;
+import org.springframework.context.annotation.*;
 
 @Configuration
 //@PropertySource("classpath:application.yaml")
